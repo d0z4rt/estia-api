@@ -1,0 +1,37 @@
+{
+  "root": true,
+  "env": {
+    "es2021": true,
+    "mongo": true,
+    "node": true,
+    "jest": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "security", "prettier"],
+  "extends": [
+    "standard",
+    "plugin:security/recommended",
+    "plugin:promise/recommended",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": ["warn", { "allow": ["error"] }],
+    "curly": "warn",
+    "spaced-comment": ["off", "never"],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ]
+  },
+  "settings": {}
+}

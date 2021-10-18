@@ -1,0 +1,19 @@
+{
+  "name": "estia-api",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./src/server.ts",
+  "scripts": {
+    "test": "n/a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d0z4rt/estia-api.git"
+  },
+  "author": "d0z",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d0z4rt/estia-api/issues"
+  },
+  "homepage": "https://github.com/d0z4rt/estia-api#readme"
+}
